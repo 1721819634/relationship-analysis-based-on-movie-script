@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="e951a923e7d34f318769b21123aaeea1" class="chart-container" style="width:720px; height:720px;"></div>
+    <script>
+        var chart_e951a923e7d34f318769b21123aaeea1 = echarts.init(
+            document.getElementById('e951a923e7d34f318769b21123aaeea1'), 'white', {renderer: 'canvas'});
+        var option_e951a923e7d34f318769b21123aaeea1 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "graph",
+            "layout": "force",
+            "symbolSize": 10,
+            "circular": {
+                "rotateLabel": false
+            },
+            "force": {
+                "repulsion": 2500,
+                "edgeLength": 50,
+                "gravity": 0.2
+            },
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "roam": true,
+            "draggable": false,
+            "focusNodeAdjacency": true,
+            "data": [
+                {
+                    "name": "Nico",
+                    "symbolSize": 8,
+                    "value": 974
+                },
+                {
+                    "name": "Toscani",
+                    "symbolSize": 5,
+                    "value": 24
+                },
+                {
+                    "name": "Jackson",
+                    "symbolSize": 7,
+                    "value": 196
+                },
+                {
+                    "name": "Jax",
+                    "symbolSize": 4,
+                    "value": 15
+                },
+                {
+                    "name": "Zingaro",
+                    "symbolSize": 4,
+                    "value": 8
+                },
+                {
+                    "name": "Lucy",
+                    "symbolSize": 5,
+                    "value": 20
+                },
+                {
+                    "name": "Carla",
+                    "symbolSize": 4,
+                    "value": 13
+                },
+                {
+                    "name": "Hallway",
+                    "symbolSize": 3,
+                    "value": 10
+                }
+            ],
+            "edgeLabel": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "edgeSymbol": [
+                null,
+                null
+            ],
+            "edgeSymbolSize": 10,
+            "links": [
+                {
+                    "source": "Nico",
+                    "target": "Toscani",
+                    "value": 0.3162
+                },
+                {
+                    "source": "Nico",
+                    "target": "Jackson",
+                    "value": 0.3536
+                },
+                {
+                    "source": "Nico",
+                    "target": "Jax",
+                    "value": 0.2236
+                },
+                {
+                    "source": "Nico",
+                    "target": "Zingaro",
+                    "value": 0.1291
+                },
+                {
+                    "source": "Nico",
+                    "target": "Lucy",
+                    "value": 0.3873
+                },
+                {
+                    "source": "Nico",
+                    "target": "Carla",
+                    "value": 0.2372
+                },
+                {
+                    "source": "Nico",
+                    "target": "Hallway",
+                    "value": 0.2236
+                },
+                {
+                    "source": "Toscani",
+                    "target": "Jackson",
+                    "value": 0.4472
+                },
+                {
+                    "source": "Toscani",
+                    "target": "Jax",
+                    "value": 0.7071
+                },
+                {
+                    "source": "Toscani",
+                    "target": "Lucy",
+                    "value": 0.4082
+                },
+                {
+                    "source": "Jackson",
+                    "target": "Jax",
+                    "value": 0.3162
+                },
+                {
+                    "source": "Jackson",
+                    "target": "Zingaro",
+                    "value": 0.1826
+                },
+                {
+                    "source": "Jackson",
+                    "target": "Lucy",
+                    "value": 0.3651
+                },
+                {
+                    "source": "Jackson",
+                    "target": "Carla",
+                    "value": 0.1118
+                },
+                {
+                    "source": "Zingaro",
+                    "target": "Lucy",
+                    "value": 0.3333
+                },
+                {
+                    "source": "Carla",
+                    "target": "Hallway",
+                    "value": 0.3536
+                }
+            ]
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u60c5\u82827-\u4eba\u7269\u793e\u4f1a\u5173\u7cfb\u7f51\u7edc",
+            "left": "center",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_e951a923e7d34f318769b21123aaeea1.setOption(option_e951a923e7d34f318769b21123aaeea1);
+    </script>
+</body>
+</html>

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+</head>
+<body>
+
+        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="b7a08ae937554050aae6d60decbd2e9c" class="chart-container" style="">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > 人物中心性</p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th>角色名称</th>
+            <th>度中心性</th>
+            <th>中介中心性</th>
+            <th>接近中心性</th>
+            <th>综合中心性</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Mater</td>
+            <td>0.8913</td>
+            <td>0.1957</td>
+            <td>0.902</td>
+            <td>0.663</td>
+        </tr>
+        <tr>
+            <td>McQueen</td>
+            <td>0.8043</td>
+            <td>0.1584</td>
+            <td>0.8364</td>
+            <td>0.5997</td>
+        </tr>
+        <tr>
+            <td>Finn</td>
+            <td>0.7174</td>
+            <td>0.1435</td>
+            <td>0.7797</td>
+            <td>0.5468</td>
+        </tr>
+        <tr>
+            <td>Holley</td>
+            <td>0.7174</td>
+            <td>0.0869</td>
+            <td>0.7797</td>
+            <td>0.528</td>
+        </tr>
+        <tr>
+            <td>Lightning</td>
+            <td>0.587</td>
+            <td>0.0511</td>
+            <td>0.7077</td>
+            <td>0.4486</td>
+        </tr>
+        <tr>
+            <td>Francesco</td>
+            <td>0.413</td>
+            <td>0.0282</td>
+            <td>0.6301</td>
+            <td>0.3571</td>
+        </tr>
+        <tr>
+            <td>Grem</td>
+            <td>0.3696</td>
+            <td>0.011</td>
+            <td>0.6133</td>
+            <td>0.3313</td>
+        </tr>
+        <tr>
+            <td>Flo</td>
+            <td>0.3478</td>
+            <td>0.0148</td>
+            <td>0.6053</td>
+            <td>0.3226</td>
+        </tr>
+        <tr>
+            <td>Lemon</td>
+            <td>0.3478</td>
+            <td>0.0162</td>
+            <td>0.5897</td>
+            <td>0.3179</td>
+        </tr>
+        <tr>
+            <td>Rod</td>
+            <td>0.3261</td>
+            <td>0.0144</td>
+            <td>0.5974</td>
+            <td>0.3126</td>
+        </tr>
+        <tr>
+            <td>Allinol</td>
+            <td>0.3261</td>
+            <td>0.0095</td>
+            <td>0.5974</td>
+            <td>0.311</td>
+        </tr>
+        <tr>
+            <td>Axlerod</td>
+            <td>0.3261</td>
+            <td>0.0072</td>
+            <td>0.5974</td>
+            <td>0.3102</td>
+        </tr>
+        <tr>
+            <td>Luigi</td>
+            <td>0.3043</td>
+            <td>0.011</td>
+            <td>0.5897</td>
+            <td>0.3017</td>
+        </tr>
+        <tr>
+            <td>Fillmore</td>
+            <td>0.3043</td>
+            <td>0.0041</td>
+            <td>0.5897</td>
+            <td>0.2994</td>
+        </tr>
+        <tr>
+            <td>Let</td>
+            <td>0.2826</td>
+            <td>0.01</td>
+            <td>0.5823</td>
+            <td>0.2916</td>
+        </tr>
+        <tr>
+            <td>Zundapp</td>
+            <td>0.2826</td>
+            <td>0.0072</td>
+            <td>0.5823</td>
+            <td>0.2907</td>
+        </tr>
+        <tr>
+            <td>Miles</td>
+            <td>0.2826</td>
+            <td>0.0035</td>
+            <td>0.5823</td>
+            <td>0.2895</td>
+        </tr>
+        <tr>
+            <td>Sarge</td>
+            <td>0.2826</td>
+            <td>0.0041</td>
+            <td>0.5679</td>
+            <td>0.2849</td>
+        </tr>
+        <tr>
+            <td>Gremlin</td>
+            <td>0.2826</td>
+            <td>0.0044</td>
+            <td>0.561</td>
+            <td>0.2827</td>
+        </tr>
+        <tr>
+            <td>Ramone</td>
+            <td>0.2609</td>
+            <td>0.0027</td>
+            <td>0.561</td>
+            <td>0.2749</td>
+        </tr>
+        <tr>
+            <td>Guido</td>
+            <td>0.2609</td>
+            <td>0.0027</td>
+            <td>0.561</td>
+            <td>0.2748</td>
+        </tr>
+        <tr>
+            <td>Pacer</td>
+            <td>0.2391</td>
+            <td>0.0018</td>
+            <td>0.5679</td>
+            <td>0.2696</td>
+        </tr>
+        <tr>
+            <td>Mel</td>
+            <td>0.2391</td>
+            <td>0.0021</td>
+            <td>0.561</td>
+            <td>0.2674</td>
+        </tr>
+        <tr>
+            <td>McMissile</td>
+            <td>0.2174</td>
+            <td>0.0064</td>
+            <td>0.561</td>
+            <td>0.2616</td>
+        </tr>
+        <tr>
+            <td>Professor Z</td>
+            <td>0.2174</td>
+            <td>0.0009</td>
+            <td>0.561</td>
+            <td>0.2598</td>
+        </tr>
+        <tr>
+            <td>Victor</td>
+            <td>0.2174</td>
+            <td>0.0019</td>
+            <td>0.5412</td>
+            <td>0.2535</td>
+        </tr>
+        <tr>
+            <td>Sally</td>
+            <td>0.1957</td>
+            <td>0.001</td>
+            <td>0.5542</td>
+            <td>0.2503</td>
+        </tr>
+        <tr>
+            <td>Vladimir trunkov</td>
+            <td>0.1957</td>
+            <td>0.0031</td>
+            <td>0.5412</td>
+            <td>0.2466</td>
+        </tr>
+        <tr>
+            <td>Brent</td>
+            <td>0.1957</td>
+            <td>0.0022</td>
+            <td>0.5412</td>
+            <td>0.2463</td>
+        </tr>
+        <tr>
+            <td>Ivan</td>
+            <td>0.1739</td>
+            <td>0.0017</td>
+            <td>0.5476</td>
+            <td>0.2411</td>
+        </tr>
+        <tr>
+            <td>Van</td>
+            <td>0.1739</td>
+            <td>0.0006</td>
+            <td>0.5476</td>
+            <td>0.2407</td>
+        </tr>
+        <tr>
+            <td>Shiftwell</td>
+            <td>0.1522</td>
+            <td>0.0001</td>
+            <td>0.5412</td>
+            <td>0.2312</td>
+        </tr>
+        <tr>
+            <td>Alexander</td>
+            <td>0.1522</td>
+            <td>0.0009</td>
+            <td>0.5287</td>
+            <td>0.2273</td>
+        </tr>
+        <tr>
+            <td>Tomber</td>
+            <td>0.1522</td>
+            <td>0.0</td>
+            <td>0.5227</td>
+            <td>0.225</td>
+        </tr>
+        <tr>
+            <td>Ben</td>
+            <td>0.1304</td>
+            <td>0.0</td>
+            <td>0.5349</td>
+            <td>0.2218</td>
+        </tr>
+        <tr>
+            <td>Bomb</td>
+            <td>0.1304</td>
+            <td>0.0002</td>
+            <td>0.5349</td>
+            <td>0.2218</td>
+        </tr>
+        <tr>
+            <td>Big Bentley</td>
+            <td>0.1304</td>
+            <td>0.0</td>
+            <td>0.5349</td>
+            <td>0.2218</td>
+        </tr>
+        <tr>
+            <td>Otis</td>
+            <td>0.1087</td>
+            <td>0.0</td>
+            <td>0.5169</td>
+            <td>0.2085</td>
+        </tr>
+        <tr>
+            <td>David</td>
+            <td>0.1304</td>
+            <td>0.0005</td>
+            <td>0.4894</td>
+            <td>0.2068</td>
+        </tr>
+        <tr>
+            <td>Darrell</td>
+            <td>0.1304</td>
+            <td>0.0002</td>
+            <td>0.4894</td>
+            <td>0.2067</td>
+        </tr>
+        <tr>
+            <td>Siddeley</td>
+            <td>0.087</td>
+            <td>0.0</td>
+            <td>0.5111</td>
+            <td>0.1994</td>
+        </tr>
+        <tr>
+            <td>Casino</td>
+            <td>0.087</td>
+            <td>0.0003</td>
+            <td>0.4946</td>
+            <td>0.194</td>
+        </tr>
+        <tr>
+            <td>Dadgum</td>
+            <td>0.0652</td>
+            <td>0.0</td>
+            <td>0.5</td>
+            <td>0.1884</td>
+        </tr>
+        <tr>
+            <td>Doc</td>
+            <td>0.0435</td>
+            <td>0.0</td>
+            <td>0.5</td>
+            <td>0.1812</td>
+        </tr>
+        <tr>
+            <td>Mama</td>
+            <td>0.0652</td>
+            <td>0.0001</td>
+            <td>0.4694</td>
+            <td>0.1782</td>
+        </tr>
+        <tr>
+            <td>Leland</td>
+            <td>0.0652</td>
+            <td>0.0</td>
+            <td>0.4554</td>
+            <td>0.1736</td>
+        </tr>
+        <tr>
+            <td>Crabby</td>
+            <td>0.0217</td>
+            <td>0.0</td>
+            <td>0.4423</td>
+            <td>0.1547</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+
+</body>
+</html>
